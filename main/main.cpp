@@ -1,5 +1,4 @@
-#include "../includes/Graf.h"
-#include <iostream>
+#include "Graf.h"
 #include <fstream>
 
 int main() {

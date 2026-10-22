@@ -16,6 +16,8 @@ public:
         m_edge_end = t;
     }
     void read(std::fstream &in);
+    std::vector<int> bfs(const std::vector<std::pair<int, int>> &graf,
+        int s, int t, int vertex);
 };
 
 #endif //UNTITLED3_GRAF_H
